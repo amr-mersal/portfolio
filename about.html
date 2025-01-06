@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/90293998ea.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img
+            src="images/logo.png"
+            alt="Logo"
+            width="100"
+            height="100"
+            class="d-inline-block align-text-top bg-white"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Internhip.html">Internship</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+    
+    <!-- about -->
+    <main class="container my-5">
+    <div id="about">
+      <div class="container">
+        <div class="roww">
+          <div class="about-col-1">
+            <img src="images/mersal.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title fs-1  text-light ">About Me</h1>
+            <p>
+              Fresh graduate, seek an entry level position as frontend developer
+              | PHP - Laravel developer opportunity where I can utilize my
+              knowledge and contribute to the growth of the organization.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('eductions')">Eductions</p>
+              <p class="tab-links" onclick="opentab('lang')">language</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Frontend Developer</span
+                  ><br />HTML<br />CSS<br />Bootstrap<br />JavaScript<br />
+                  OOP <br />
+                  React.js <br />Vue.js<br />
+                  Vuex
+                </li>
+                <li>
+                  <span>Backend Developer</span
+                  ><br />PHP<br />MySQL<br />Laravel<br />
+                  OOP <br />
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="eductions">
+              <ul>
+                <li>
+                  <span>Canadian International College</span><br />Faculty of
+                  communication engineering
+                </li>
+                <li><span>From</span><br />Sep 2019</li>
+                <li><span>To</span><br />July 2024</li>
+                <li><span>Graduation project</span><br />Firefighting robot</li>
+                <li><span>Grade</span><br />C+</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="lang">
+              <ul>
+                <li><span>Arabic</span><br />Native</li>
+                <li><span>English</span><br />Good</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+    <div class="card-footer bg-black  border-success copyright foot">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/amrali3117 " target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/amr-ali-b22499286/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/amr-mersal" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+      </div>     
+    <p> Made by Amr Mersal <i class="fa-solid fa-heart"></i></p>
+  </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
