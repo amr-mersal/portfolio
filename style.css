@@ -255,7 +255,7 @@ nav ul li a:hover::after {
 
 .card:hover .card-hover {
   top: 0; /* Slide into view */
-  transform: scale(1.05); /* Slight zoom effect for hover content */
+  transform: scale(1.1); /* Slight zoom effect for hover content */
 }
 
 /* Title and text styling */
@@ -299,14 +299,14 @@ nav ul li a:hover::after {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .card {
     width:100%; /* Full-width cards for small screens */
     height: auto; /* Allow the height to adjust */
   }
 
   .card-hover {
-    font-size: 12px; /* Smaller text */
+    font-size: 11px; /* Smaller text */
   }
 
   .card-hover h3 {
