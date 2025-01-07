@@ -301,7 +301,7 @@ nav ul li a:hover::after {
 
 @media (max-width: 425px) {
   .card {
-    width:100%; /* Full-width cards for small screens */
+    width:90%; /* Full-width cards for small screens */
     height: auto; /* Allow the height to adjust */
   }
 
@@ -315,6 +315,9 @@ nav ul li a:hover::after {
 
   .card-hover p {
     font-size: 8px;
+  }
+  .about-img{
+    display: none;
   }
 
 }
