@@ -22,7 +22,7 @@ https://amr-mersal.github.io/portfolio/home.html
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **HTML5** – Structure and semantic markup
 - **Bootstrap 5** – Responsive grid and components
