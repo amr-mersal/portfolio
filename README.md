@@ -4,12 +4,12 @@ A clean, responsive **Portfolio Website** built using **HTML5**, **Bootstrap 5**
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 https://amr-mersal.github.io/portfolio/home.html
 ---
 
-## ✨ Features
+## Features
 
 -  Hero section with intro and call-to-action
 -  About section with profile and biography
